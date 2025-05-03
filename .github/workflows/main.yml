@@ -1,0 +1,13 @@
+name: Проверка Hello
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Клонируем репозиторий
+        uses: actions/checkout@v3
+
+      - name: Запуск hello.py
+        run: python hello.py
