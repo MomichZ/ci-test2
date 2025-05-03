@@ -1,1 +1,1 @@
-print("Привет от CI!")
+prin("oops3")
